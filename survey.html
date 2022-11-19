@@ -11,66 +11,78 @@
 
     <body>
 
-        <div>
-            <img src="https://travellingfoodie.net/wp-content/uploads/2022/04/Mount-Rainier-National-Park-Washington-Travelling-Foodie-6-819x1024.jpg.webp"
-            alt="a picture of me from graduation week">
+
+        <div class="top-half-container">
+
+            <div class="main-pic-container">
+                <img src="https://pbs.twimg.com/media/FUlhTVxWIAEn8Yt.jpg"
+                alt="iconic arsenal player"
+                class="main-pic">
+            </div>
+
+
+            <div class="right-top">
+
+                <div class="right-top-grid">
+                    <a href="website.html" class="home">home</a>
+                    <a href="survey.html" class="survey">survey</a>
+                    <a href="links.html" class="links">links</a>
+                    <a href="pictures.html" class="pictures">pictures</a>
+                </div>
+
+
+                <div class="container_block">
+
+                    <form method="post" class="whole_form">
+
+                        <fieldset class="field_set">
+
+                            <legend class="add_user">Arsenal survey</legend>
+
+                            <div class="basic-info">
+                                <label for="firstName" class="fn-label">Favourite Arsenal player:</label>
+                                <input type="text" id="firstName" name="first_name" class="fn-input">
+
+                                <label for="lastName" class="ln-label">Least Favourite Tottenham player:</label>
+                                <input type="text" id="lastName" name="last_name" class="ln-input">
+                            </div>
+
+                            <div class="tc-stuff">
+                                <input type="checkbox" id="tc" name="tc" class="tc-input">
+                                <label for="tc" class="checkbox-label">I have read the terms and conditions.</label>
+                            </div>
+
+                            <div class="saka-container">
+                                <label for="comments" class="comment-label">Use this space to explain why Bukayo Saka deserves the 2023 Ballon d'Or:</label>
+                            </div>
+
+                            <div class="saka-answer">
+                                <textarea id="comments" name="comments" class="comment-input"></textarea>
+                            </div>
+
+
+                            <div class="submit-button">
+                                <button type="submit" class="button">Submit</button>
+                            </div>
+
+
+                        </fieldset>
+
+                    </form>
+
+                </div>
+
+            </div>
+
         </div>
 
-        <div>
-            <a href="website.html">home</a>
-            <a href="survey.html">survey</a>
-            <a href="links.html">links</a>
-            <a href="pictures.html">pictures</a>
-        </div>
 
-
-
-        <div class="container_block">
-
-            <form method="post" class="whole_form">
-
-                <fieldset class="field_set">
-
-                    <legend class="add_user">Arsenal survey</legend>
-
-                    <div class="basic-info">
-                        <label for="firstName" class="fn-label">Favourite Arsenal player:</label>
-                        <input type="text" id="firstName" name="first_name" class="fn-input">
-
-                        <label for="lastName" class="ln-label">Least Favourite Tottenham player:</label>
-                        <input type="text" id="lastName" name="last_name" class="ln-input">
-                    </div>
-
-                    <div class="tc-stuff">
-                        <input type="checkbox" id="tc" name="tc" class="tc-input">
-                        <label for="tc" class="checkbox-label">I have read the terms and conditions.</label>
-                    </div>
-
-                    <div class="saka-container">
-                        <label for="comments" class="comment-label">Use this space to explain why Bukayo Saka deserves the 2023 Ballon d'Or:</label>
-                    </div>
-
-                    <div class="saka-answer">
-                        <textarea id="comments" name="comments" class="comment-input"></textarea>
-                    </div>
-
-
-                    <div class="submit-button">
-                        <button type="submit" class="button">Submit</button>
-                    </div>
-
-
-                </fieldset>
-
-            </form>
-
-        </div>
-
-
-        <div>
-            <a href="https://www.facebook.com/achyutha.menon" class="fa fa-facebook"></a>
-            <a href="https://twitter.com/achu_menon11" class="fa fa-twitter"></a>
-            <a href="https://www.linkedin.com/in/achu-menon-928b28171/" class="fa fa-linkedin"></a>
+        <div class="social-media-grid">
+            <div class="social-media-links">
+                <a href="https://www.facebook.com/achyutha.menon" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/achu_menon11" class="fa fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/achu-menon-928b28171/" class="fa fa-linkedin"></a>
+            </div>
         </div>
 
     </body>
