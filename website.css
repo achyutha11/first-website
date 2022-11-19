@@ -315,17 +315,26 @@ p {
 /* Links page specific CSS */
 
 .links-header {
+    display: flex;
+    justify-content: center;
+    grid-column: 2 / 3;
+    align-items: center;
     text-align: center;
 }
 
-.all-links {
+.links-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 150px 150px 639px;
+    background-color: #CAE2CE;
+    margin: 0 25px 0 0;
+}
+
+.actual-links {
     display: flex;
     justify-content: center;
+    grid-column: 2 / 3;
     align-items: center;
-    text-align: center;
-    /* padding: 10%;
-    margin: 10%; */
-    border: 1px solid black;
 }
 
 
