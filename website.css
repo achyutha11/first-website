@@ -1,10 +1,5 @@
 
 
-.main-pic {
-    height: 1024px;
-    width: 819px;
-}
-
 h1 {
     font-family: Helvetica;
 }
@@ -26,8 +21,9 @@ p {
 
 .top-half-container {
     display: grid;
-    grid-template-columns: 844px 50px 1fr;
-    grid-template-rows: 1064px;
+    /* grid-template-columns: 844px 50px 1fr; */
+    grid-template-columns: 43.958% 2.604% 1fr;
+    grid-template-rows: 98.519%;
 }
 
 .main-pic-container {
@@ -35,6 +31,12 @@ p {
     padding: 0;
     grid-row: 1;
     grid-column: 1 / 2;
+}
+
+
+.main-pic {
+    height: 1024px;
+    width: 819px;
 }
 
 
