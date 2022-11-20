@@ -210,7 +210,7 @@ p {
 }
 
 .field-set {
-    height: 681px;
+    height: 685px;
     width: auto;
     background-color: #CAE2CE;
     border: 0;
@@ -318,6 +318,14 @@ p {
 
 /* Links page specific CSS */
 
+.links-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 150px 310px 225px;
+    background-color: #CAE2CE;
+    margin: 0 50px 0 0;
+}
+
 .links-header {
     display: flex;
     justify-content: center;
@@ -326,25 +334,134 @@ p {
     text-align: center;
 }
 
-.links-grid {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    grid-template-rows: 150px 150px 639px;
-    background-color: #CAE2CE;
-    margin: 0 25px 0 0;
-}
 
 .actual-links {
     display: flex;
     justify-content: center;
     grid-column: 2 / 3;
-    align-items: center;
+    align-items: flex-start;
+    font-size: 20px;
 }
 
 
 /* Pictures page specific CSS */
 
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 120px 50px 50px 120px 50px 145px;
+    padding: 0;
+    margin: 0 50px 0 0;
+    color: black;
+    background-color: #CAE2CE;
+}
+
+
+.image-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2 / 3;
+    font-size: 30px;
+    text-align: center;
+}
+
+
 .pic {
-    height: 144px;
-    width: 256px;
+    height: 113px;
+    width: 200px;
+}
+
+
+.arsenal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    grid-column: 1 / 2;
+}
+
+
+#arsenal-caption {
+    grid-row: 3;
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+
+.violin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+
+
+#violin-caption {
+    grid-row: 3;
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+
+.carnatic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2;
+    grid-column: 3 / 4;
+}
+
+
+#carnatic-caption {
+    grid-row: 3;
+    grid-column: 3 / 4;
+    text-align: center;
+}
+
+
+.cricket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 5;
+    grid-column: 1 / 2;
+}
+
+#cricket-caption {
+    grid-row: 6;
+    grid-column: 1 / 2;
+    text-align: center;
+}
+
+
+.puppy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 5;
+    grid-column: 2 / 3;
+}
+
+#puppy-caption {
+    grid-row: 6;
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+
+.nature {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 5;
+    grid-column: 3 / 4;
+}
+
+
+#nature-caption {
+    grid-row: 6;
+    grid-column: 3 / 4;
+    text-align: center;
 }
