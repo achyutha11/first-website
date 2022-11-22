@@ -109,7 +109,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 230px 230px 225px;
-    background-color: #DCABDF;
+    background-color: #F6B6B6;
     margin: 0 50px 0 0;
 }
 
@@ -132,7 +132,7 @@ p {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 30px 20px 50px 30px;
-    background-color: #DCABDF;
+    background-color: #D4BDEF;
     margin: 25px 50px;
 }
 
@@ -157,7 +157,7 @@ p {
 
 
 #handi {
-    background-color: #C792DF;
+    background-color: #99D5FF;
 }
 
 
@@ -217,7 +217,7 @@ p {
 .field-set {
     height: 685px;
     width: auto;
-    background-color: #CAE2CE;
+    background-color: #F6B6B6;
     border: 0;
     margin: 0;
     padding: 0;
@@ -327,7 +327,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 150px 310px 225px;
-    background-color: #CAE2CE;
+    background-color: #F6B6B6;
     margin: 0 50px 0 0;
 }
 
@@ -358,7 +358,7 @@ p {
     padding: 0;
     margin: 0 50px 0 0;
     color: black;
-    background-color: #CAE2CE;
+    background-color: #F6B6B6;
 }
 
 
