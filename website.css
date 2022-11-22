@@ -19,6 +19,11 @@ p {
     font-family: Helvetica;
 }
 
+
+.body-container {
+    background-color: #E6E1C5;
+}
+
 .top-half-container {
     display: grid;
     grid-template-columns: 650px 50px 1fr;
@@ -104,7 +109,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-rows: 230px 230px 225px;
-    background-color: #CAE2CE;
+    background-color: #DCABDF;
     margin: 0 50px 0 0;
 }
 
@@ -127,7 +132,7 @@ p {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     grid-template-rows: 30px 20px 50px 30px;
-    background-color: #EFE8E6;
+    background-color: #DCABDF;
     margin: 25px 50px;
 }
 
@@ -152,7 +157,7 @@ p {
 
 
 #handi {
-    background-color: #CAE2CE;
+    background-color: #C792DF;
 }
 
 
@@ -349,7 +354,7 @@ p {
 .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 150px 120px 50px 50px 120px 50px 145px;
+    grid-template-rows: 150px 140px 50px 50px 140px 50px 105px;
     padding: 0;
     margin: 0 50px 0 0;
     color: black;
@@ -368,8 +373,8 @@ p {
 
 
 .pic {
-    height: 113px;
-    width: 200px;
+    height: 160px;
+    width: 160px;
 }
 
 
